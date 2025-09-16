@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOR Tattoo Studio</title>
+  <meta name="description" content="NOR Tattoo Studio — custom tetovaže, clean & safe. Rezerviši termin online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header>
+    <nav class="nav" aria-label="Glavna navigacija">
+      <div class="brand" aria-label="NOR Tattoo Studio logo">NOR <span>Tattoo</span> Studio</div>
+      <div class="spacer"></div>
+      <ul>
+        <li><a href="#pocetna">Početna</a></li>
+        <li><a href="#o-meni">O meni</a></li>
+        <li><a href="#usluge">Usluge</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="pocetna" class="hero" role="banner" aria-label="Hero sekcija">
+    <div class="hero-inner">
+      <div class="badges" aria-hidden="true">
+        <span class="badge">Sterile & Safe</span>
+        <span class="badge">Custom Design</span>
+        <span class="badge">By Appointment</span>
+      </div>
+      <h1>Čisti rez, precizan stil</h1>
+      <p>Profesionalne tetovaže i custom dizajn. Fineline, blackwork, minimal i cover‑up — svaki rad planiramo kroz kratku konsultaciju.</p>
+      <a class="cta" href="#kontakt">Rezerviši termin</a>
+      <a class="cta-ghost" href="https://instagram.com/kadakonekasnije" target="_blank" rel="noreferrer noopener">Radovi na Instagramu</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="o-meni">
+    <div class="wrap about">
+      <div class="about-card">
+        <h2>O studiju</h2>
+        <p class="lead">NOR Tattoo Studio je fokusiran na kvalitet, sterilnost i dizajn koji priča tvoju priču. Svaka tetovaža radi se uz prethodnu konsultaciju i skicu.</p>
+        <p>Koristimo jednokratne igle, radimo u kontrolisanim uslovima i dajemo detaljna uputstva za negu. Radimo po zakazivanju, a manje walk‑in motive moguće je uraditi isti dan ako je termin slobodan.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1548207800-8d3f4f9c8e3f?q=80&w=1400&auto=format&fit=crop" alt="Tattoo studio radni sto i mašina">
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="usluge">
+    <div class="wrap">
+      <h2>Usluge</h2>
+      <p class="lead">Fineline • Blackwork • Minimal • Script • Cover‑up • Custom dizajn</p>
+      <div class="services">
+        <article class="svc">
+          <h3>Custom dizajn</h3>
+          <p>Kreiranje motiva po tvojoj ideji, skica i prilagođavanje.</p>
+          <p class="price">od 30€ (skica)</p>
+        </article>
+        <article class="svc">
+          <h3>Tattoo po satu</h3>
+          <p>Za veće motive i session rad.</p>
+          <p class="price">60–80€ / h</p>
+        </article>
+        <article class="svc">
+          <h3>Cover‑up</h3>
+          <p>Redizajn i prekrivanje stare tetovaže.</p>
+          <p class="price">ponuda nakon konsultacije</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="kontakt">
+    <div class="wrap contact-grid">
+      <form action="#" method="post" aria-labelledby="kontakt-naslov">
+        <h2 id="kontakt-naslov">Kontakt / Rezervacija</h2>
+        <p class="lead">Pošalji ideju (motiv, veličinu u cm i lokaciju). Odgovaramo u roku od 24h (radnim danima).</p>
+        <label for="ime">Ime i prezime</label>
+        <input id="ime" name="ime" type="text" placeholder="npr. Nikola Nikolić" required>
+        <div style="height:10px"></div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="tvoj@email.com" required>
+        <div style="height:10px"></div>
+        <label for="poruka">Poruka</label>
+        <textarea id="poruka" name="poruka" placeholder="Opisi motiv, veličinu u cm i lokaciju na telu" required></textarea>
+        <div style="height:14px"></div>
+        <button class="btn" type="submit" aria-label="Pošalji poruku">Pošalji</button>
+        <p class="muted" style="margin-top:10px">* Formular je demonstracioni (HTML/CSS). Za realno slanje koristi Formspree ili backend.</p>
+      </form>
+      <aside class="contact-card">
+        <h2>Kontakt info</h2>
+        <ul>
+          <li><strong>Adresa:</strong> Kralja Petra 12, Beograd</li>
+          <li><strong>Telefon:</strong> +381 64 123 4567</li>
+          <li><strong>Email:</strong> hello@nortattoo.rs</li>
+          <li><strong>Radno vreme:</strong> Pon–Sub 11–19h (nedelja po dogovoru)</li>
+        </ul>
+        <div style="height:12px"></div>
+        <h3>Pravila i nega</h3>
+        <p class="muted">Zakaži termin uz depozit. Ponesi ličnu kartu. Posle tetovaže sledi standardna nega 10–14 dana.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="foot">
+      <div>
+        <div class="brand">NOR <span style="color:var(--accent)">Tattoo</span> Studio</div>
+        <p class="muted" style="max-width:42ch">Custom tetovaže u sterilnim uslovima. Prati nas i piši za konsultacije.</p>
+      </div>
+      <div>
+        <h4>Linkovi</h4>
+        <ul>
+          <li><a href="#pocetna">Početna</a></li>
+          <li><a href="#o-meni">O meni</a></li>
+          <li><a href="#usluge">Usluge</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Društvene mreže</h4>
+        <ul>
+          <li><a href="https://instagram.com/kadakonekasnije" target="_blank" rel="noreferrer noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="copy">© <span id="year"></span> NOR Tattoo Studio. Sva prava zadržana.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+  <!--
+    Author: Andjela Rosic
+    Age: 20 years
+  -->
+
+</html>
