@@ -158,3 +158,20 @@ footer{
   .nav ul{display:none} /* Linkovi su u footeru; CTA vodi na kontakt */
   .services{grid-template-columns:1fr}
 }
+/* --- Hero buttons spacing (mobile-friendly) --- */
+.hero .cta, .hero .cta-ghost{
+  margin: 0 8px 8px 0; /* default spacing */
+}
+
+@media (max-width: 520px){
+  .hero .cta, .hero .cta-ghost{
+    display:block;
+    width:100%;
+    max-width: 420px;
+    margin: 0 auto 10px; /* vertikalni razmak */
+    text-align:center;
+  }
+  .hero-inner{ padding: 72px 16px 56px; }
+}
+
+
